@@ -5,9 +5,9 @@ partial class Program
 {
     static void Main(string[] args)
     {
-       CriarArquivo();
-       CriarArquivoComWriter();
-       Console.ReadLine();
+        UsarStreamDeEntrada();    
+        Console.WriteLine("aplicação finalizada");
+
+        Console.ReadLine();
     }
-        
     }
